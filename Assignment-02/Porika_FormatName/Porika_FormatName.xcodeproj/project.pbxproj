@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24D3E7CB27A7487C0044B6BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D3E7CA27A7487C0044B6BC /* AppDelegate.swift */; };
+		24D3E7CD27A7487C0044B6BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D3E7CC27A7487C0044B6BC /* SceneDelegate.swift */; };
+		24D3E7CF27A7487C0044B6BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D3E7CE27A7487C0044B6BC /* ViewController.swift */; };
+		24D3E7D227A7487C0044B6BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24D3E7D027A7487C0044B6BC /* Main.storyboard */; };
+		24D3E7D427A7487D0044B6BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24D3E7D327A7487D0044B6BC /* Assets.xcassets */; };
+		24D3E7D727A7487D0044B6BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24D3E7D527A7487D0044B6BC /* LaunchScreen.storyboard */; };
+		24D3E7E227A7487D0044B6BC /* Porika_FormatNameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D3E7E127A7487D0044B6BC /* Porika_FormatNameTests.swift */; };
+		24D3E7EC27A7487D0044B6BC /* Porika_FormatNameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D3E7EB27A7487D0044B6BC /* Porika_FormatNameUITests.swift */; };
+		24D3E7EE27A7487D0044B6BC /* Porika_FormatNameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D3E7ED27A7487D0044B6BC /* Porika_FormatNameUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24D3E7DE27A7487D0044B6BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24D3E7BF27A7487C0044B6BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24D3E7C627A7487C0044B6BC;
+			remoteInfo = Porika_FormatName;
+		};
+		24D3E7E827A7487D0044B6BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24D3E7BF27A7487C0044B6BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24D3E7C627A7487C0044B6BC;
+			remoteInfo = Porika_FormatName;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24D3E7C727A7487C0044B6BC /* Porika_FormatName.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Porika_FormatName.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24D3E7CA27A7487C0044B6BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		24D3E7CC27A7487C0044B6BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		24D3E7CE27A7487C0044B6BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		24D3E7D127A7487C0044B6BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24D3E7D327A7487D0044B6BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24D3E7D627A7487D0044B6BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24D3E7D827A7487D0044B6BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24D3E7DD27A7487D0044B6BC /* Porika_FormatNameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Porika_FormatNameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24D3E7E127A7487D0044B6BC /* Porika_FormatNameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Porika_FormatNameTests.swift; sourceTree = "<group>"; };
+		24D3E7E727A7487D0044B6BC /* Porika_FormatNameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Porika_FormatNameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24D3E7EB27A7487D0044B6BC /* Porika_FormatNameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Porika_FormatNameUITests.swift; sourceTree = "<group>"; };
+		24D3E7ED27A7487D0044B6BC /* Porika_FormatNameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Porika_FormatNameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24D3E7C427A7487C0044B6BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24D3E7DA27A7487D0044B6BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24D3E7E427A7487D0044B6BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24D3E7BE27A7487C0044B6BC = {
+			isa = PBXGroup;
+			children = (
+				24D3E7C927A7487C0044B6BC /* Porika_FormatName */,
+				24D3E7E027A7487D0044B6BC /* Porika_FormatNameTests */,
+				24D3E7EA27A7487D0044B6BC /* Porika_FormatNameUITests */,
+				24D3E7C827A7487C0044B6BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24D3E7C827A7487C0044B6BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24D3E7C727A7487C0044B6BC /* Porika_FormatName.app */,
+				24D3E7DD27A7487D0044B6BC /* Porika_FormatNameTests.xctest */,
+				24D3E7E727A7487D0044B6BC /* Porika_FormatNameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24D3E7C927A7487C0044B6BC /* Porika_FormatName */ = {
+			isa = PBXGroup;
+			children = (
+				24D3E7CA27A7487C0044B6BC /* AppDelegate.swift */,
+				24D3E7CC27A7487C0044B6BC /* SceneDelegate.swift */,
+				24D3E7CE27A7487C0044B6BC /* ViewController.swift */,
+				24D3E7D027A7487C0044B6BC /* Main.storyboard */,
+				24D3E7D327A7487D0044B6BC /* Assets.xcassets */,
+				24D3E7D527A7487D0044B6BC /* LaunchScreen.storyboard */,
+				24D3E7D827A7487D0044B6BC /* Info.plist */,
+			);
+			path = Porika_FormatName;
+			sourceTree = "<group>";
+		};
+		24D3E7E027A7487D0044B6BC /* Porika_FormatNameTests */ = {
+			isa = PBXGroup;
+			children = (
+				24D3E7E127A7487D0044B6BC /* Porika_FormatNameTests.swift */,
+			);
+			path = Porika_FormatNameTests;
+			sourceTree = "<group>";
+		};
+		24D3E7EA27A7487D0044B6BC /* Porika_FormatNameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				24D3E7EB27A7487D0044B6BC /* Porika_FormatNameUITests.swift */,
+				24D3E7ED27A7487D0044B6BC /* Porika_FormatNameUITestsLaunchTests.swift */,
+			);
+			path = Porika_FormatNameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24D3E7C627A7487C0044B6BC /* Porika_FormatName */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24D3E7F127A7487D0044B6BC /* Build configuration list for PBXNativeTarget "Porika_FormatName" */;
+			buildPhases = (
+				24D3E7C327A7487C0044B6BC /* Sources */,
+				24D3E7C427A7487C0044B6BC /* Frameworks */,
+				24D3E7C527A7487C0044B6BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Porika_FormatName;
+			productName = Porika_FormatName;
+			productReference = 24D3E7C727A7487C0044B6BC /* Porika_FormatName.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24D3E7DC27A7487D0044B6BC /* Porika_FormatNameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24D3E7F427A7487D0044B6BC /* Build configuration list for PBXNativeTarget "Porika_FormatNameTests" */;
+			buildPhases = (
+				24D3E7D927A7487D0044B6BC /* Sources */,
+				24D3E7DA27A7487D0044B6BC /* Frameworks */,
+				24D3E7DB27A7487D0044B6BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24D3E7DF27A7487D0044B6BC /* PBXTargetDependency */,
+			);
+			name = Porika_FormatNameTests;
+			productName = Porika_FormatNameTests;
+			productReference = 24D3E7DD27A7487D0044B6BC /* Porika_FormatNameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		24D3E7E627A7487D0044B6BC /* Porika_FormatNameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24D3E7F727A7487D0044B6BC /* Build configuration list for PBXNativeTarget "Porika_FormatNameUITests" */;
+			buildPhases = (
+				24D3E7E327A7487D0044B6BC /* Sources */,
+				24D3E7E427A7487D0044B6BC /* Frameworks */,
+				24D3E7E527A7487D0044B6BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24D3E7E927A7487D0044B6BC /* PBXTargetDependency */,
+			);
+			name = Porika_FormatNameUITests;
+			productName = Porika_FormatNameUITests;
+			productReference = 24D3E7E727A7487D0044B6BC /* Porika_FormatNameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24D3E7BF27A7487C0044B6BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					24D3E7C627A7487C0044B6BC = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					24D3E7DC27A7487D0044B6BC = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 24D3E7C627A7487C0044B6BC;
+					};
+					24D3E7E627A7487D0044B6BC = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 24D3E7C627A7487C0044B6BC;
+					};
+				};
+			};
+			buildConfigurationList = 24D3E7C227A7487C0044B6BC /* Build configuration list for PBXProject "Porika_FormatName" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24D3E7BE27A7487C0044B6BC;
+			productRefGroup = 24D3E7C827A7487C0044B6BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24D3E7C627A7487C0044B6BC /* Porika_FormatName */,
+				24D3E7DC27A7487D0044B6BC /* Porika_FormatNameTests */,
+				24D3E7E627A7487D0044B6BC /* Porika_FormatNameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24D3E7C527A7487C0044B6BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D3E7D727A7487D0044B6BC /* LaunchScreen.storyboard in Resources */,
+				24D3E7D427A7487D0044B6BC /* Assets.xcassets in Resources */,
+				24D3E7D227A7487C0044B6BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24D3E7DB27A7487D0044B6BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24D3E7E527A7487D0044B6BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24D3E7C327A7487C0044B6BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D3E7CF27A7487C0044B6BC /* ViewController.swift in Sources */,
+				24D3E7CB27A7487C0044B6BC /* AppDelegate.swift in Sources */,
+				24D3E7CD27A7487C0044B6BC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24D3E7D927A7487D0044B6BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D3E7E227A7487D0044B6BC /* Porika_FormatNameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24D3E7E327A7487D0044B6BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D3E7EE27A7487D0044B6BC /* Porika_FormatNameUITestsLaunchTests.swift in Sources */,
+				24D3E7EC27A7487D0044B6BC /* Porika_FormatNameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24D3E7DF27A7487D0044B6BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24D3E7C627A7487C0044B6BC /* Porika_FormatName */;
+			targetProxy = 24D3E7DE27A7487D0044B6BC /* PBXContainerItemProxy */;
+		};
+		24D3E7E927A7487D0044B6BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24D3E7C627A7487C0044B6BC /* Porika_FormatName */;
+			targetProxy = 24D3E7E827A7487D0044B6BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		24D3E7D027A7487C0044B6BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24D3E7D127A7487C0044B6BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24D3E7D527A7487D0044B6BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24D3E7D627A7487D0044B6BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24D3E7EF27A7487D0044B6BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		24D3E7F027A7487D0044B6BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24D3E7F227A7487D0044B6BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Porika_FormatName/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Porika_FormatName;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Porika-FormatName";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24D3E7F327A7487D0044B6BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Porika_FormatName/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Porika_FormatName;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Porika-FormatName";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		24D3E7F527A7487D0044B6BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Porika-FormatNameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Porika_FormatName.app/Porika_FormatName";
+			};
+			name = Debug;
+		};
+		24D3E7F627A7487D0044B6BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Porika-FormatNameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Porika_FormatName.app/Porika_FormatName";
+			};
+			name = Release;
+		};
+		24D3E7F827A7487D0044B6BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Porika-FormatNameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Porika_FormatName;
+			};
+			name = Debug;
+		};
+		24D3E7F927A7487D0044B6BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Porika-FormatNameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Porika_FormatName;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24D3E7C227A7487C0044B6BC /* Build configuration list for PBXProject "Porika_FormatName" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24D3E7EF27A7487D0044B6BC /* Debug */,
+				24D3E7F027A7487D0044B6BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24D3E7F127A7487D0044B6BC /* Build configuration list for PBXNativeTarget "Porika_FormatName" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24D3E7F227A7487D0044B6BC /* Debug */,
+				24D3E7F327A7487D0044B6BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24D3E7F427A7487D0044B6BC /* Build configuration list for PBXNativeTarget "Porika_FormatNameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24D3E7F527A7487D0044B6BC /* Debug */,
+				24D3E7F627A7487D0044B6BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24D3E7F727A7487D0044B6BC /* Build configuration list for PBXNativeTarget "Porika_FormatNameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24D3E7F827A7487D0044B6BC /* Debug */,
+				24D3E7F927A7487D0044B6BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24D3E7BF27A7487C0044B6BC /* Project object */;
+}
