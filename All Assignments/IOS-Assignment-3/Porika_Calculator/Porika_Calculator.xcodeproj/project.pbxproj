@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24E46A6027B62879002425E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E78B3427B2E3EE00229E41 /* ViewController.swift */; };
+		24E46A6127B6287D002425E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E78B3427B2E3EE00229E41 /* ViewController.swift */; };
 		24E78B3127B2E3EE00229E41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E78B3027B2E3EE00229E41 /* AppDelegate.swift */; };
 		24E78B3327B2E3EE00229E41 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E78B3227B2E3EE00229E41 /* SceneDelegate.swift */; };
 		24E78B3527B2E3EE00229E41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E78B3427B2E3EE00229E41 /* ViewController.swift */; };
@@ -268,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24E46A6027B62879002425E9 /* ViewController.swift in Sources */,
 				24E78B4827B2E3EF00229E41 /* Porika_CalculatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24E46A6127B6287D002425E9 /* ViewController.swift in Sources */,
 				24E78B5427B2E3EF00229E41 /* Porika_CalculatorUITestsLaunchTests.swift in Sources */,
 				24E78B5227B2E3EF00229E41 /* Porika_CalculatorUITests.swift in Sources */,
 			);
