@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F49D264280663A00015004B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F49D263280663A00015004B /* AppDelegate.swift */; };
+		3F49D266280663A00015004B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F49D265280663A00015004B /* SceneDelegate.swift */; };
+		3F49D26B280663A00015004B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F49D269280663A00015004B /* Main.storyboard */; };
+		3F49D26D280663A00015004B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F49D26C280663A00015004B /* Assets.xcassets */; };
+		3F49D270280663A00015004B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F49D26E280663A00015004B /* LaunchScreen.storyboard */; };
+		3F49D27B280663A00015004B /* Porika_GroceryAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F49D27A280663A00015004B /* Porika_GroceryAppTests.swift */; };
+		3F49D285280663A00015004B /* Porika_GroceryAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F49D284280663A00015004B /* Porika_GroceryAppUITests.swift */; };
+		3F49D287280663A00015004B /* Porika_GroceryAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F49D286280663A00015004B /* Porika_GroceryAppUITestsLaunchTests.swift */; };
+		3F49D294280664070015004B /* GroceryItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F49D293280664070015004B /* GroceryItemsViewController.swift */; };
+		3F49D298280664120015004B /* GrocerySectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F49D295280664120015004B /* GrocerySectionsViewController.swift */; };
+		3F49D299280664120015004B /* ItemInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F49D296280664120015004B /* ItemInfoViewController.swift */; };
+		3F49D29A280664120015004B /* GrocerySection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F49D297280664120015004B /* GrocerySection.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F49D277280663A00015004B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F49D258280663A00015004B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F49D25F280663A00015004B;
+			remoteInfo = Porika_GroceryApp;
+		};
+		3F49D281280663A00015004B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F49D258280663A00015004B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F49D25F280663A00015004B;
+			remoteInfo = Porika_GroceryApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F49D260280663A00015004B /* Porika_GroceryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Porika_GroceryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F49D263280663A00015004B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F49D265280663A00015004B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3F49D26A280663A00015004B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F49D26C280663A00015004B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F49D26F280663A00015004B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F49D271280663A00015004B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F49D276280663A00015004B /* Porika_GroceryAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Porika_GroceryAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F49D27A280663A00015004B /* Porika_GroceryAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Porika_GroceryAppTests.swift; sourceTree = "<group>"; };
+		3F49D280280663A00015004B /* Porika_GroceryAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Porika_GroceryAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F49D284280663A00015004B /* Porika_GroceryAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Porika_GroceryAppUITests.swift; sourceTree = "<group>"; };
+		3F49D286280663A00015004B /* Porika_GroceryAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Porika_GroceryAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3F49D293280664070015004B /* GroceryItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroceryItemsViewController.swift; sourceTree = "<group>"; };
+		3F49D295280664120015004B /* GrocerySectionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrocerySectionsViewController.swift; sourceTree = "<group>"; };
+		3F49D296280664120015004B /* ItemInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemInfoViewController.swift; sourceTree = "<group>"; };
+		3F49D297280664120015004B /* GrocerySection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrocerySection.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F49D25D280663A00015004B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F49D273280663A00015004B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F49D27D280663A00015004B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F49D257280663A00015004B = {
+			isa = PBXGroup;
+			children = (
+				3F49D262280663A00015004B /* Porika_GroceryApp */,
+				3F49D279280663A00015004B /* Porika_GroceryAppTests */,
+				3F49D283280663A00015004B /* Porika_GroceryAppUITests */,
+				3F49D261280663A00015004B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F49D261280663A00015004B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F49D260280663A00015004B /* Porika_GroceryApp.app */,
+				3F49D276280663A00015004B /* Porika_GroceryAppTests.xctest */,
+				3F49D280280663A00015004B /* Porika_GroceryAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F49D262280663A00015004B /* Porika_GroceryApp */ = {
+			isa = PBXGroup;
+			children = (
+				3F49D263280663A00015004B /* AppDelegate.swift */,
+				3F49D265280663A00015004B /* SceneDelegate.swift */,
+				3F49D295280664120015004B /* GrocerySectionsViewController.swift */,
+				3F49D269280663A00015004B /* Main.storyboard */,
+				3F49D26C280663A00015004B /* Assets.xcassets */,
+				3F49D26E280663A00015004B /* LaunchScreen.storyboard */,
+				3F49D271280663A00015004B /* Info.plist */,
+				3F49D293280664070015004B /* GroceryItemsViewController.swift */,
+				3F49D296280664120015004B /* ItemInfoViewController.swift */,
+				3F49D297280664120015004B /* GrocerySection.swift */,
+			);
+			path = Porika_GroceryApp;
+			sourceTree = "<group>";
+		};
+		3F49D279280663A00015004B /* Porika_GroceryAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F49D27A280663A00015004B /* Porika_GroceryAppTests.swift */,
+			);
+			path = Porika_GroceryAppTests;
+			sourceTree = "<group>";
+		};
+		3F49D283280663A00015004B /* Porika_GroceryAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F49D284280663A00015004B /* Porika_GroceryAppUITests.swift */,
+				3F49D286280663A00015004B /* Porika_GroceryAppUITestsLaunchTests.swift */,
+			);
+			path = Porika_GroceryAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F49D25F280663A00015004B /* Porika_GroceryApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F49D28A280663A00015004B /* Build configuration list for PBXNativeTarget "Porika_GroceryApp" */;
+			buildPhases = (
+				3F49D25C280663A00015004B /* Sources */,
+				3F49D25D280663A00015004B /* Frameworks */,
+				3F49D25E280663A00015004B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Porika_GroceryApp;
+			productName = Porika_GroceryApp;
+			productReference = 3F49D260280663A00015004B /* Porika_GroceryApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F49D275280663A00015004B /* Porika_GroceryAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F49D28D280663A00015004B /* Build configuration list for PBXNativeTarget "Porika_GroceryAppTests" */;
+			buildPhases = (
+				3F49D272280663A00015004B /* Sources */,
+				3F49D273280663A00015004B /* Frameworks */,
+				3F49D274280663A00015004B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F49D278280663A00015004B /* PBXTargetDependency */,
+			);
+			name = Porika_GroceryAppTests;
+			productName = Porika_GroceryAppTests;
+			productReference = 3F49D276280663A00015004B /* Porika_GroceryAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F49D27F280663A00015004B /* Porika_GroceryAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F49D290280663A00015004B /* Build configuration list for PBXNativeTarget "Porika_GroceryAppUITests" */;
+			buildPhases = (
+				3F49D27C280663A00015004B /* Sources */,
+				3F49D27D280663A00015004B /* Frameworks */,
+				3F49D27E280663A00015004B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F49D282280663A00015004B /* PBXTargetDependency */,
+			);
+			name = Porika_GroceryAppUITests;
+			productName = Porika_GroceryAppUITests;
+			productReference = 3F49D280280663A00015004B /* Porika_GroceryAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F49D258280663A00015004B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					3F49D25F280663A00015004B = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					3F49D275280663A00015004B = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 3F49D25F280663A00015004B;
+					};
+					3F49D27F280663A00015004B = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 3F49D25F280663A00015004B;
+					};
+				};
+			};
+			buildConfigurationList = 3F49D25B280663A00015004B /* Build configuration list for PBXProject "Porika_GroceryApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F49D257280663A00015004B;
+			productRefGroup = 3F49D261280663A00015004B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F49D25F280663A00015004B /* Porika_GroceryApp */,
+				3F49D275280663A00015004B /* Porika_GroceryAppTests */,
+				3F49D27F280663A00015004B /* Porika_GroceryAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F49D25E280663A00015004B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F49D270280663A00015004B /* LaunchScreen.storyboard in Resources */,
+				3F49D26D280663A00015004B /* Assets.xcassets in Resources */,
+				3F49D26B280663A00015004B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F49D274280663A00015004B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F49D27E280663A00015004B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F49D25C280663A00015004B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F49D299280664120015004B /* ItemInfoViewController.swift in Sources */,
+				3F49D264280663A00015004B /* AppDelegate.swift in Sources */,
+				3F49D294280664070015004B /* GroceryItemsViewController.swift in Sources */,
+				3F49D266280663A00015004B /* SceneDelegate.swift in Sources */,
+				3F49D298280664120015004B /* GrocerySectionsViewController.swift in Sources */,
+				3F49D29A280664120015004B /* GrocerySection.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F49D272280663A00015004B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F49D27B280663A00015004B /* Porika_GroceryAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F49D27C280663A00015004B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F49D287280663A00015004B /* Porika_GroceryAppUITestsLaunchTests.swift in Sources */,
+				3F49D285280663A00015004B /* Porika_GroceryAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F49D278280663A00015004B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F49D25F280663A00015004B /* Porika_GroceryApp */;
+			targetProxy = 3F49D277280663A00015004B /* PBXContainerItemProxy */;
+		};
+		3F49D282280663A00015004B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F49D25F280663A00015004B /* Porika_GroceryApp */;
+			targetProxy = 3F49D281280663A00015004B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F49D269280663A00015004B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F49D26A280663A00015004B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F49D26E280663A00015004B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F49D26F280663A00015004B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F49D288280663A00015004B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F49D289280663A00015004B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F49D28B280663A00015004B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Porika_GroceryApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Porika_GroceryApp;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Porika-GroceryApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F49D28C280663A00015004B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Porika_GroceryApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Porika_GroceryApp;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Porika-GroceryApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F49D28E280663A00015004B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Porika-GroceryAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Porika_GroceryApp.app/Porika_GroceryApp";
+			};
+			name = Debug;
+		};
+		3F49D28F280663A00015004B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Porika-GroceryAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Porika_GroceryApp.app/Porika_GroceryApp";
+			};
+			name = Release;
+		};
+		3F49D291280663A00015004B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Porika-GroceryAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Porika_GroceryApp;
+			};
+			name = Debug;
+		};
+		3F49D292280663A00015004B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Porika-GroceryAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Porika_GroceryApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F49D25B280663A00015004B /* Build configuration list for PBXProject "Porika_GroceryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F49D288280663A00015004B /* Debug */,
+				3F49D289280663A00015004B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F49D28A280663A00015004B /* Build configuration list for PBXNativeTarget "Porika_GroceryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F49D28B280663A00015004B /* Debug */,
+				3F49D28C280663A00015004B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F49D28D280663A00015004B /* Build configuration list for PBXNativeTarget "Porika_GroceryAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F49D28E280663A00015004B /* Debug */,
+				3F49D28F280663A00015004B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F49D290280663A00015004B /* Build configuration list for PBXNativeTarget "Porika_GroceryAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F49D291280663A00015004B /* Debug */,
+				3F49D292280663A00015004B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F49D258280663A00015004B /* Project object */;
+}
