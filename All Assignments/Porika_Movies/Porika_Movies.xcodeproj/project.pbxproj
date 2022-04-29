@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F04345E281B862A00ADC818 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F04345D281B862A00ADC818 /* AppDelegate.swift */; };
+		3F043460281B862A00ADC818 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F04345F281B862A00ADC818 /* SceneDelegate.swift */; };
+		3F043462281B862A00ADC818 /* GenreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F043461281B862A00ADC818 /* GenreViewController.swift */; };
+		3F043465281B862A00ADC818 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F043463281B862A00ADC818 /* Main.storyboard */; };
+		3F043467281B862B00ADC818 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F043466281B862B00ADC818 /* Assets.xcassets */; };
+		3F04346A281B862B00ADC818 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F043468281B862B00ADC818 /* LaunchScreen.storyboard */; };
+		3F043475281B862B00ADC818 /* Porika_MoviesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F043474281B862B00ADC818 /* Porika_MoviesTests.swift */; };
+		3F04347F281B862B00ADC818 /* Porika_MoviesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F04347E281B862B00ADC818 /* Porika_MoviesUITests.swift */; };
+		3F043481281B862B00ADC818 /* Porika_MoviesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F043480281B862B00ADC818 /* Porika_MoviesUITestsLaunchTests.swift */; };
+		3F04348E281B86CB00ADC818 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F04348D281B86CB00ADC818 /* MoviesViewController.swift */; };
+		3F043490281B86F400ADC818 /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F04348F281B86F400ADC818 /* MovieCollectionViewCell.swift */; };
+		3F043492281B871B00ADC818 /* MovieData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F043491281B871B00ADC818 /* MovieData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F043471281B862B00ADC818 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F043452281B862A00ADC818 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F043459281B862A00ADC818;
+			remoteInfo = Porika_Movies;
+		};
+		3F04347B281B862B00ADC818 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F043452281B862A00ADC818 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F043459281B862A00ADC818;
+			remoteInfo = Porika_Movies;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F04345A281B862A00ADC818 /* Porika_Movies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Porika_Movies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F04345D281B862A00ADC818 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F04345F281B862A00ADC818 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3F043461281B862A00ADC818 /* GenreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreViewController.swift; sourceTree = "<group>"; };
+		3F043464281B862A00ADC818 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F043466281B862B00ADC818 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F043469281B862B00ADC818 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F04346B281B862B00ADC818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F043470281B862B00ADC818 /* Porika_MoviesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Porika_MoviesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F043474281B862B00ADC818 /* Porika_MoviesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Porika_MoviesTests.swift; sourceTree = "<group>"; };
+		3F04347A281B862B00ADC818 /* Porika_MoviesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Porika_MoviesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F04347E281B862B00ADC818 /* Porika_MoviesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Porika_MoviesUITests.swift; sourceTree = "<group>"; };
+		3F043480281B862B00ADC818 /* Porika_MoviesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Porika_MoviesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3F04348D281B86CB00ADC818 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		3F04348F281B86F400ADC818 /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
+		3F043491281B871B00ADC818 /* MovieData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F043457281B862A00ADC818 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F04346D281B862B00ADC818 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F043477281B862B00ADC818 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F043451281B862A00ADC818 = {
+			isa = PBXGroup;
+			children = (
+				3F04345C281B862A00ADC818 /* Porika_Movies */,
+				3F043473281B862B00ADC818 /* Porika_MoviesTests */,
+				3F04347D281B862B00ADC818 /* Porika_MoviesUITests */,
+				3F04345B281B862A00ADC818 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F04345B281B862A00ADC818 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F04345A281B862A00ADC818 /* Porika_Movies.app */,
+				3F043470281B862B00ADC818 /* Porika_MoviesTests.xctest */,
+				3F04347A281B862B00ADC818 /* Porika_MoviesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F04345C281B862A00ADC818 /* Porika_Movies */ = {
+			isa = PBXGroup;
+			children = (
+				3F04345D281B862A00ADC818 /* AppDelegate.swift */,
+				3F04345F281B862A00ADC818 /* SceneDelegate.swift */,
+				3F043461281B862A00ADC818 /* GenreViewController.swift */,
+				3F04348D281B86CB00ADC818 /* MoviesViewController.swift */,
+				3F04348F281B86F400ADC818 /* MovieCollectionViewCell.swift */,
+				3F043463281B862A00ADC818 /* Main.storyboard */,
+				3F043466281B862B00ADC818 /* Assets.xcassets */,
+				3F043491281B871B00ADC818 /* MovieData.swift */,
+				3F043468281B862B00ADC818 /* LaunchScreen.storyboard */,
+				3F04346B281B862B00ADC818 /* Info.plist */,
+			);
+			path = Porika_Movies;
+			sourceTree = "<group>";
+		};
+		3F043473281B862B00ADC818 /* Porika_MoviesTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F043474281B862B00ADC818 /* Porika_MoviesTests.swift */,
+			);
+			path = Porika_MoviesTests;
+			sourceTree = "<group>";
+		};
+		3F04347D281B862B00ADC818 /* Porika_MoviesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F04347E281B862B00ADC818 /* Porika_MoviesUITests.swift */,
+				3F043480281B862B00ADC818 /* Porika_MoviesUITestsLaunchTests.swift */,
+			);
+			path = Porika_MoviesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F043459281B862A00ADC818 /* Porika_Movies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F043484281B862B00ADC818 /* Build configuration list for PBXNativeTarget "Porika_Movies" */;
+			buildPhases = (
+				3F043456281B862A00ADC818 /* Sources */,
+				3F043457281B862A00ADC818 /* Frameworks */,
+				3F043458281B862A00ADC818 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Porika_Movies;
+			productName = Porika_Movies;
+			productReference = 3F04345A281B862A00ADC818 /* Porika_Movies.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F04346F281B862B00ADC818 /* Porika_MoviesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F043487281B862B00ADC818 /* Build configuration list for PBXNativeTarget "Porika_MoviesTests" */;
+			buildPhases = (
+				3F04346C281B862B00ADC818 /* Sources */,
+				3F04346D281B862B00ADC818 /* Frameworks */,
+				3F04346E281B862B00ADC818 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F043472281B862B00ADC818 /* PBXTargetDependency */,
+			);
+			name = Porika_MoviesTests;
+			productName = Porika_MoviesTests;
+			productReference = 3F043470281B862B00ADC818 /* Porika_MoviesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F043479281B862B00ADC818 /* Porika_MoviesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F04348A281B862B00ADC818 /* Build configuration list for PBXNativeTarget "Porika_MoviesUITests" */;
+			buildPhases = (
+				3F043476281B862B00ADC818 /* Sources */,
+				3F043477281B862B00ADC818 /* Frameworks */,
+				3F043478281B862B00ADC818 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F04347C281B862B00ADC818 /* PBXTargetDependency */,
+			);
+			name = Porika_MoviesUITests;
+			productName = Porika_MoviesUITests;
+			productReference = 3F04347A281B862B00ADC818 /* Porika_MoviesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F043452281B862A00ADC818 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					3F043459281B862A00ADC818 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					3F04346F281B862B00ADC818 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 3F043459281B862A00ADC818;
+					};
+					3F043479281B862B00ADC818 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 3F043459281B862A00ADC818;
+					};
+				};
+			};
+			buildConfigurationList = 3F043455281B862A00ADC818 /* Build configuration list for PBXProject "Porika_Movies" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F043451281B862A00ADC818;
+			productRefGroup = 3F04345B281B862A00ADC818 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F043459281B862A00ADC818 /* Porika_Movies */,
+				3F04346F281B862B00ADC818 /* Porika_MoviesTests */,
+				3F043479281B862B00ADC818 /* Porika_MoviesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F043458281B862A00ADC818 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F04346A281B862B00ADC818 /* LaunchScreen.storyboard in Resources */,
+				3F043467281B862B00ADC818 /* Assets.xcassets in Resources */,
+				3F043465281B862A00ADC818 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F04346E281B862B00ADC818 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F043478281B862B00ADC818 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F043456281B862A00ADC818 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F043492281B871B00ADC818 /* MovieData.swift in Sources */,
+				3F043462281B862A00ADC818 /* GenreViewController.swift in Sources */,
+				3F04345E281B862A00ADC818 /* AppDelegate.swift in Sources */,
+				3F043490281B86F400ADC818 /* MovieCollectionViewCell.swift in Sources */,
+				3F043460281B862A00ADC818 /* SceneDelegate.swift in Sources */,
+				3F04348E281B86CB00ADC818 /* MoviesViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F04346C281B862B00ADC818 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F043475281B862B00ADC818 /* Porika_MoviesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F043476281B862B00ADC818 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F04347F281B862B00ADC818 /* Porika_MoviesUITests.swift in Sources */,
+				3F043481281B862B00ADC818 /* Porika_MoviesUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F043472281B862B00ADC818 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F043459281B862A00ADC818 /* Porika_Movies */;
+			targetProxy = 3F043471281B862B00ADC818 /* PBXContainerItemProxy */;
+		};
+		3F04347C281B862B00ADC818 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F043459281B862A00ADC818 /* Porika_Movies */;
+			targetProxy = 3F04347B281B862B00ADC818 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F043463281B862A00ADC818 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F043464281B862A00ADC818 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F043468281B862B00ADC818 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F043469281B862B00ADC818 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F043482281B862B00ADC818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F043483281B862B00ADC818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F043485281B862B00ADC818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Porika_Movies/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Porika_Movies;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Porika-Movies";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F043486281B862B00ADC818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Porika_Movies/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Porika_Movies;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Porika-Movies";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F043488281B862B00ADC818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Porika-MoviesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Porika_Movies.app/Porika_Movies";
+			};
+			name = Debug;
+		};
+		3F043489281B862B00ADC818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Porika-MoviesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Porika_Movies.app/Porika_Movies";
+			};
+			name = Release;
+		};
+		3F04348B281B862B00ADC818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Porika-MoviesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Porika_Movies;
+			};
+			name = Debug;
+		};
+		3F04348C281B862B00ADC818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Porika-MoviesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Porika_Movies;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F043455281B862A00ADC818 /* Build configuration list for PBXProject "Porika_Movies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F043482281B862B00ADC818 /* Debug */,
+				3F043483281B862B00ADC818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F043484281B862B00ADC818 /* Build configuration list for PBXNativeTarget "Porika_Movies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F043485281B862B00ADC818 /* Debug */,
+				3F043486281B862B00ADC818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F043487281B862B00ADC818 /* Build configuration list for PBXNativeTarget "Porika_MoviesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F043488281B862B00ADC818 /* Debug */,
+				3F043489281B862B00ADC818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F04348A281B862B00ADC818 /* Build configuration list for PBXNativeTarget "Porika_MoviesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F04348B281B862B00ADC818 /* Debug */,
+				3F04348C281B862B00ADC818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F043452281B862A00ADC818 /* Project object */;
+}
